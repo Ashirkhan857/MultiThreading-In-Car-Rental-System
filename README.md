@@ -4,11 +4,11 @@
 
 Multithreading is a model of program execution that allows for multiple threads to be created within a process, executing independently but concurrently sharing process resources. Depending on the hardware, threads can run fully parallel if they are distributed to their own CPU core.
 
-# Implement MultiThreading In Car Rental System
+## Implement MultiThreading In Car Rental System
 
 Car Rental System is based on the concept to rent cars and generate rental invoices for a rental company. The main functionality in every module has a separate thread. When a function runs, a thread is created and when the function finishes its working, thread is terminated. You can get the thread pid in every module as well.
 
-# How To Run This Project
+## How To Run This Project
 
 + Download pthread.h, semaphore.h, sched.h from include directory.
 + Download pthreadVC2.dll and pthreadVC.lib from x64 or x86 directory depends upon visual studio edition.
